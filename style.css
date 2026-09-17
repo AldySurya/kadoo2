@@ -30,6 +30,9 @@ button { color: inherit; font: inherit; }
 h1, h2 { font-family: 'Playfair Display', serif; font-weight: 600; margin: 0; letter-spacing: 0; }
 h1 { font-size: clamp(3.4rem, 8vw, 7.6rem); line-height: .98; margin-top: 25px; }
 h1 strong { color: var(--rose); font-weight: inherit; }
+[contenteditable="true"] { outline: none; border-radius: 6px; cursor: text; transition: background .2s, box-shadow .2s; }
+[contenteditable="true"]:hover { background: rgba(247,179,155,.08); }
+[contenteditable="true"]:focus { background: rgba(247,179,155,.12); box-shadow: 0 0 0 2px rgba(247,179,155,.35); }
 .wave { font-family: 'DM Sans', sans-serif; font-size: .42em; vertical-align: top; display: inline-block; transform-origin: 70% 80%; animation: wave 2.6s ease-in-out infinite; }
 .welcome-copy { color: var(--cream); font-size: clamp(1.05rem, 2vw, 1.35rem); line-height: 1.65; margin: 28px 0 32px; }
 .welcome-copy em { font-family: 'Playfair Display', serif; color: var(--muted); font-size: .85em; }

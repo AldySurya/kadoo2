@@ -15,10 +15,6 @@ const memoriesScreen = document.querySelector('.memories-screen');
 const receiveButton = document.querySelector('[data-receive]');
 const giftButton = document.querySelector('[data-gift]');
 
-document.querySelectorAll('[data-recipient]').forEach((element) => {
-  element.textContent = CONFIG.recipient;
-});
-
 document.querySelectorAll('.particles').forEach((container) => {
   const symbols = ['✦', '·', '♡', '✧', '•'];
   for (let index = 0; index < 24; index += 1) {
